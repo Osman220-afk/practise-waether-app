@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+   /* background-color: #D0E9F2; /* পুরো পেজের ব্যাকগ্রাউন্ড */
+   background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body {
+    background: linear-gradient(135deg, #A1D3E0, #E3F2FD); /* প্রধান কন্টেন্টের ব্যাকগ্রাউন্ড */
+    padding: 20px; /* প্যাডিং */
+    border-radius: 10px; /* গোলাকার কোণ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* হালকা ছায়া */
+    width:30%;
+    height:40rem;
+}
+.main-body input{
+    /*margin-top: 20rem;*/
+    height:5rem;
+    width:20rem;
+    margin-left: 4rem;
+    border-radius: 1rem;
+    border:none;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color:#86C5D8;
+    /*color:rgb(173, 141, 141);*/
+    color:black;
+}
+.main-body input::placeholder{
+    /*color:black;*/
+}
+.search-icon{
+    height:5rem;
+    width:5rem;
+    background:#86C5D8;
+    border-radius:50%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+   
+}
+.search-bar{
+    display:flex;
+   
+}
+.search-bar img{
+    /*filter: grayscale(100%) invert(100%) brightness(2);*/
+    height:3rem;
+}
+.main-searchicon{
+    height:rem;
+}
+.rain img{
+    height:15rem;
+}
+.rain-discription{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.temparatue{
+    padding-top:2rem;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.city-name{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.waves img{
+    height:3rem;
+    width:auto;
+}
+.wind img{
+    height:3rem;
+    width:auto;
+}
+.images{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top:4rem;
+}
+.wind {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.waves{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wind p{
+    padding-left: 1rem;
+}
+.waves p{
+    padding-left: 1rem;
+}
+.hhumidity-number{
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.info-name{
+    font-size: 1.2rem;
+}
+input:focus {
+    outline: none;
+  }
+  .wind-number{
+    font-weight:700;
+    font-size: 1.5rem;
+}
+/*.weather{
+display:none;
+background: none;
+}*/
+.weather {
+    display:none;
+    
+}
+.main-body{
+    background: none;
+    box-shadow:none;
+}
+.error{
+    margin-top: 7rem;
+    margin-left: 2rem;
+    color:red;
+    font-size: 2rem;
+    display:none;
+}
